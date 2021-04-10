@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Tab, Row, Col } from 'react-bootstrap';
 
 export default function BootstrapTabPane({ eventKey }) {
@@ -25,28 +25,22 @@ export default function BootstrapTabPane({ eventKey }) {
         }
     }
 
-    useEffect(() => {
-        console.log(pricing.[eventKey].short.price)
-
-    }, [])
-
-
     return (
         <Tab.Pane eventKey={eventKey}>
             <Row>
-                <Col md={4} className='text-center'>
+                <Col md={4} className='text-center p-3'>
                     <h2 className='tab-header'>Short Stay</h2>
                     <p>{pricing.oneStay.short.length}</p>
                     <p className='font-weight-bold tab-price'>{pricing.[eventKey].short.price}</p>
                     <p>Save {pricing.[eventKey].short.save}!</p>
                 </Col>
-                <Col md={4} className='text-center'>
+                <Col md={4} className='text-center middle-pane p-3'>
                     <h2 className='tab-header text-center'>Work Day</h2>
                     <p>{pricing.oneStay.work.length}</p>
                     <p className='font-weight-bold tab-price'>{pricing.[eventKey].work.price}</p>
                     <p>Save {pricing.[eventKey].work.save}!</p>
                 </Col>
-                <Col md={4} className='text-center'>
+                <Col md={4} className='text-center p-3'>
                     <h2 className='tab-header text-center'>Full Day</h2>
                     <p>{pricing.oneStay.full.length}</p>
                     <p className='font-weight-bold tab-price'>{pricing.[eventKey].full.price}</p>

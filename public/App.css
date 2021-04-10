@@ -14,6 +14,15 @@
   font-size: 30px;
 }
 
+.middle-pane {
+  background-color: rgb(197,196,196);
+}
+
+.image-cover {
+  object-fit: cover;
+  width: 100%;
+}
+
 .nav-logo {
   min-width: 10vw;
 }

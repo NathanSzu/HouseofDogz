@@ -1,14 +1,20 @@
 import React from 'react'
-import { Row, Col, Jumbotron } from 'react-bootstrap'
+import { Row, Col, Image } from 'react-bootstrap'
+import { Helmet } from 'react-helmet-async';
 import BootstrapTabPricing from '../components/BootstrapTabPricing'
 
 export default function Info() {
     return (
         <div className='background'>
+
+            <Helmet>
+                <title>Info | House of Dogz</title>
+            </Helmet>
+
             <Row>
                 <Col>
                     <section>
-
+                        <Image src="https://via.placeholder.com/800x300" className='image-cover' fluid />
                     </section>
                 </Col>
             </Row>

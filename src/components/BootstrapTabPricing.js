@@ -6,7 +6,7 @@ export default function BootstrapTabPricing() {
     return (
         <Tab.Container id="left-tabs-example" defaultActiveKey="oneStay">
             <Row className='pr-4 pl-4 pb-4'>
-                <Col sm={3}>
+                <Col md={3}>
                     <Nav variant="pills" className="flex-column">
                         <Nav.Item>
                             <Nav.Link className='font-weight-bold' eventKey="oneStay">Single</Nav.Link>
@@ -22,7 +22,7 @@ export default function BootstrapTabPricing() {
                         </Nav.Item>
                     </Nav>
                 </Col>
-                <Col sm={9}>
+                <Col md={9}>
                     <Tab.Content>
                         {/* Custom components for ease of readability */}
                         <BootstrapTabPane eventKey='oneStay' />
