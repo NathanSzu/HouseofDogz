@@ -1,7 +1,6 @@
 import React from 'react'
 import ImageSlider from '../components/ImageSlider'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Row, Col } from 'react-bootstrap'
 
 export default function Home() {
     return (

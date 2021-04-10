@@ -11,6 +11,7 @@ export default function BootstrapBotNavbar() {
                     <Nav.Link href="/info"><span className='nav-link-style text-light'>Info</span></Nav.Link>
                     <Nav.Link href="https://secure.petexec.net/login.php" target='blank'><span className='nav-link-style text-light'>Customer Login</span></Nav.Link>
                     <Nav.Link href="https://secure.petexec.net/newOwner.php?x=bVh+agckRrs=" target='blank'><span className='nav-link-style text-light'>Create Account</span></Nav.Link>
+                    <Nav.Link href="https://atlaspet.net" target='blank'><span className='nav-link-style text-light'>Atlas Pet</span></Nav.Link>
                 </Nav>
             </Navbar>
             <div className='text-center p-3 text-light border-top'>
