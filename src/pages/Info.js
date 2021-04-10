@@ -2,6 +2,7 @@ import React from 'react'
 import { Row, Col, Image } from 'react-bootstrap'
 import { Helmet } from 'react-helmet-async';
 import BootstrapTabPricing from '../components/BootstrapTabPricing'
+import coverimage from '../utils/assets/HODback.jpg'
 
 export default function Info() {
     return (
@@ -14,7 +15,7 @@ export default function Info() {
             <Row>
                 <Col>
                     <section>
-                        <Image src="https://via.placeholder.com/800x300" className='image-cover' fluid />
+                        <Image src={coverimage} className='image-cover' fluid />
                     </section>
                 </Col>
             </Row>
