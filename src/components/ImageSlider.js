@@ -7,7 +7,7 @@ import Slider4 from '../utils/assets/CoverSlider-04.png'
 
 export default function ImageSlider() {
     return (
-        <Carousel>
+        <Carousel controls={false} indicators={false} >
             <Carousel.Item>
                 <img
                     className="d-block w-100"

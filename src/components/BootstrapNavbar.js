@@ -5,7 +5,7 @@ import logo from '../logo.svg'
 
 export default function BootstrapNavbar() {
     return (
-        <nav>
+        <nav aria-label='Top Menu'>
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="/"><img className='nav-logo' alt='logo' src={logo}></img></Navbar.Brand>
                 <Navbar.Brand href="/"><span className='nav-title'>House of Dogz</span></Navbar.Brand>

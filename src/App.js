@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import BootstrapNavbar from './components/BootstrapNavbar'
+import BootstrapBotNavbar from './components/BootstrapBotNavbar'
 import Home from './pages/Home'
 import Info from './pages/Info'
 import Container from 'react-bootstrap/Container'
@@ -16,6 +17,9 @@ function App() {
         <Route exact path ='/' component={Home} />
         <Route exact path ='/info' component={Info} />
       </main>
+      <footer className='footer'>
+        <BootstrapBotNavbar />
+      </footer>
       </Container>
     </Router>
   );
