@@ -1,3 +1,23 @@
+.v-center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.timer {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.timer-text {
+font-size: 24px;
+}
+
+.rv-center {
+  display: flex;
+  align-items: center;
+}
+
 .background {
   background-color: rgb(248,249,250);
 }
